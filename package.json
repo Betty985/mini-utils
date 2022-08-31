@@ -1,0 +1,40 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [
+    "typescript",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BettyxLearnsTeam/utils"
+  },
+  "devDependencies": {
+    "cz-customizable": "^6.9.2",
+    "eslint": "^8.23.0",
+    "husky": "^8.0.1",
+    "only-allow": "^1.1.0",
+    "prettier": "^2.7.1",
+    "rollup": "^2.78.1",
+    "typescript": "^4.8.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./cz-config.js"
+    }
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
